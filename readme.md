@@ -21,7 +21,7 @@
 	NOTE: This may take some time.
 
 6.	On the command line, run "evaluate.py". \
-	This script calculates accuracy based on "pred_labels_with_probabilities.txt" and "test_labels.txt". \
+	This script calculates and prints accuracy based on "pred_labels_with_probabilities.txt" and "test_labels.txt". \
 	The model uploaded on github has an accuracy of 0.8627036438253949.
 	
 # How to test on other data
@@ -35,7 +35,7 @@
 	NOTE: This may take some time.
 
 3.	On the command line, run "python evaluate.py --custom_test" *Remember to run with the flag*. \
-	This script calculates accuracy based on "custom_pred_labels_with_probabilities.txt" and "custom_test_labels.txt". 
+	This script calculates and prints accuracy based on "custom_pred_labels_with_probabilities.txt" and "custom_test_labels.txt". 
 
 # Other Notes:
 1.	Run on Python 3 with GPU.
