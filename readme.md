@@ -3,7 +3,7 @@
 1.	After cloning the repository, together with the scripts, folder should also contain "car_devkit.tgz", "cars_test.tgz", "cars_test_annos_withlabels.mat", "cars_train.tgz" downloaded from https://ai.stanford.edu/~jkrause/cars/car_dataset.html \
 	On the command line, run "pip install -r requirements.txt"
 
-2.	On the command line, run "python preprocess.py" *Can take quite long*
+2.	On the command line, run "python preprocess.py" *Can take quite long* \n
 	This script splits the data into the respective train, validation, test folders in the data folder. It also parses "cars_test_annos_withlabels.mat" to create "test_labels.txt" for testing later \
 	Each partition will be used for a certain purpose. Train data will be used to fit the model. Validation data is used for tuning parameters and trying different models. Testing data is finally used to estimate generalization error on future unseen data
 	
