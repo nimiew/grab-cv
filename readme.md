@@ -38,5 +38,5 @@
 	This script calculates accuracy based on "custom_pred_labels_with_probabilities.txt" and "custom_test_labels.txt" 
 
 # Other Notes:
-1.	Run on Python 3
+1.	Run on Python 3 with GPU
 2.	Code tested on Linux with conda virtual environment
