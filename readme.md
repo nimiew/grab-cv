@@ -9,7 +9,7 @@
 	
 3.	On the command line, run "python car_train.py". \
 	You can choose which gpu to use by changing "os.environ["CUDA_VISIBLE_DEVICES"]" in line 3. \
-	This script trains a model on the training data using transfer learning and finetuning. Due to computational constraints, I used EfficientNetB3 which has state-of-the-art performance for its model size (in terms of number of parameters). This is a new model from Google Brain, details can be found here - https://arxiv.org/pdf/1905.1194.pdf. \
+	This script trains a model on the training data using transfer learning and finetuning. Due to computational constraints, I used EfficientNetB3 which has state-of-the-art performance for its model size (in terms of number of parameters). This is a new model from Google Brain, details can be found here - https://arxiv.org/pdf/1905.11946.pdf. \
 	The model trained will be saved as "model.h5".
 
 4.	Rename "model.h5" as "model_final.h5".
